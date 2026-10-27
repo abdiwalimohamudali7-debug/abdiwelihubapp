@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-">
+    <meta name="viewport" abdiwali content="width=device-width, initial-scale=1.0">
+    <title>abdiwelihub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <div class="container">
+        <!-- Header -->
+        <header>
+            <!-- <a href="[https://abdiwalihub.com](https://abdiwalihub.com)"></a> -->
+            <a href="#home" class="logo">
+                <div class="logo-icon">A</div>
+                abdiwalihub
+            </a>
+            
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h3>Hellow!</h3>
+                <h1>I'M <span>Abdiwalihub</span></h1>
+                <h2>I am UX/UI Designer</h2>
+                <p>Waxaan ahaa web developer naqshadeeye ah, kuna takhasusay abuurista mareegaha casriga ah, UX/UI design, iyo barnaamijyada shabakadaha.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Get in Touch</a>
+                    <div class="social-pills">
+                        <a href="https://tiktok.com" target="_blank" aria-label="tiktok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://facebook.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="WhatsApp Image 2026-10-25 at 13.55.13.jpeg" alt="Abdiwalihub Profile">
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-header">
+                        <i class="fas fa-user-tie"></i>
+                        <span>UI/UX & Web Developer</span>
+                    </div>
+                    <p>Waxaan khibrad u leeyahay dhisidda xalalka dhijitaalka ah, naqshadeynta interface-yada soo jiidashada leh, iyo barnaamij-sameynta casriga ah si loo helo khibrad adeeg oo heer sare ah.</p>
+                </div>
+                <div class="stats-container">
+                    <div class="stat-box">
+                        <h2>3+</h2>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-box">
+                        <h2>18+</h2>
+                        <p>Completed Projects</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>UX/UI Design</h3>
+                    <p>Wireframing, interactive prototyping, design systems, user data testing, Figma & Adobe XD.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Front-End Dev</h3>
+                    <p>Building responsive interfaces with HTML, CSS, Tailwind CSS, JavaScript, and React.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Adobe Graphic</h3>
+                    <p>Branding, flyers, posters, social media posts, corporate identity, UI/UX illustrations.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Let's Work <span>Together</span></h2>
+                    <p>Fariinno ama su'aalo noogu soo dir foomka hoose ama nagala soo xiriir macluumaadka hoos ku xusan.</p>
+                    
+                    <a href="mailto:abdiwalihub@gmail.com" class="info-input-box">
+                        <i class="fas fa-envelope"></i>
+                        <!-- <span>abdiwalihub@gmail.com</span> -->
+                         Enter Your Email
+                    </a>
+                    <a href="https://maps.google.com/?q=Mogadishu,Somalia" target="_blank" class="info-input-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <!-- <span></span> -->
+                            tell your location
+                    </a>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Magacaaga..." required>
+                    </div>
+                    <div class="form-group">
+                        <label>Your Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Email-kaaga..." required>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea id="message" class="form-control" placeholder="Qor fariintaada halkan..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="border:none; cursor:pointer; width:100%;">Dir fariintaada</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+<script src="idex.js"></script>
+
+
+</body>
+</html>
